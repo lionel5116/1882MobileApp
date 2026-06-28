@@ -11,6 +11,7 @@ struct DashboardView: View {
         _vm = StateObject(wrappedValue: DashboardViewModel())
     }
 
+    //this is the main body of the view, which displays the dashboard content based on the state of the view model
     var body: some View {
         ScrollView {
             if let summary = vm.summary {
