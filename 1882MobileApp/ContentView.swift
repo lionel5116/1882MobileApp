@@ -1,24 +1,3 @@
-//
-//  ContentView.swift
-//  1882MobileApp
-//
-//  Created by Lionel Jones on 6/27/26.
-//
-
+// ContentView.swift — replaced by RootTabView.swift
+// App entry point is in _882MobileAppApp.swift → RootTabView
 import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-#Preview {
-    ContentView()
-}
