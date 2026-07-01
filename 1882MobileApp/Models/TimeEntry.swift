@@ -1,6 +1,6 @@
 import Foundation
 
-struct TimeEntry: Codable, Identifiable {
+nonisolated struct TimeEntry: Codable, Identifiable {
     let id: Int
     let employeeName: String
     let employeeId: String

@@ -6,11 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		15597E772FF4946E003B7368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A7DD002FF09E1100091E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A7DD072FF09E1100091E88;
+			remoteInfo = 1882MobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		15597E732FF4946E003B7368 /* 1882MobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1882MobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15597E842FF496E1003B7368 /* 1882MobileApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1882MobileApp.xctestplan; sourceTree = "<group>"; };
 		15A7DD082FF09E1100091E88 /* 1882MobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1882MobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		15597E742FF4946E003B7368 /* 1882MobileAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 1882MobileAppTests;
+			sourceTree = "<group>";
+		};
 		15A7DD0A2FF09E1100091E88 /* 1882MobileApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = 1882MobileApp;
@@ -19,6 +36,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15597E702FF4946E003B7368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15A7DD052FF09E1100091E88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,7 +56,9 @@
 		15A7DCFF2FF09E1100091E88 = {
 			isa = PBXGroup;
 			children = (
+				15597E842FF496E1003B7368 /* 1882MobileApp.xctestplan */,
 				15A7DD0A2FF09E1100091E88 /* 1882MobileApp */,
+				15597E742FF4946E003B7368 /* 1882MobileAppTests */,
 				15A7DD092FF09E1100091E88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				15A7DD082FF09E1100091E88 /* 1882MobileApp.app */,
+				15597E732FF4946E003B7368 /* 1882MobileAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +75,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		15597E722FF4946E003B7368 /* 1882MobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15597E7B2FF4946E003B7368 /* Build configuration list for PBXNativeTarget "1882MobileAppTests" */;
+			buildPhases = (
+				15597E6F2FF4946E003B7368 /* Sources */,
+				15597E702FF4946E003B7368 /* Frameworks */,
+				15597E712FF4946E003B7368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15597E782FF4946E003B7368 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15597E742FF4946E003B7368 /* 1882MobileAppTests */,
+			);
+			name = 1882MobileAppTests;
+			packageProductDependencies = (
+			);
+			productName = 1882MobileAppTests;
+			productReference = 15597E732FF4946E003B7368 /* 1882MobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		15A7DD072FF09E1100091E88 /* 1882MobileApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15A7DD132FF09E1300091E88 /* Build configuration list for PBXNativeTarget "1882MobileApp" */;
@@ -77,9 +127,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2640;
-				LastUpgradeCheck = 2640;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
+					15597E722FF4946E003B7368 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 15A7DD072FF09E1100091E88;
+					};
 					15A7DD072FF09E1100091E88 = {
 						CreatedOnToolsVersion = 26.4;
 					};
@@ -100,11 +154,19 @@
 			projectRoot = "";
 			targets = (
 				15A7DD072FF09E1100091E88 /* 1882MobileApp */,
+				15597E722FF4946E003B7368 /* 1882MobileAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		15597E712FF4946E003B7368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15A7DD062FF09E1100091E88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +177,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		15597E6F2FF4946E003B7368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15A7DD042FF09E1100091E88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +193,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		15597E782FF4946E003B7368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A7DD072FF09E1100091E88 /* 1882MobileApp */;
+			targetProxy = 15597E772FF4946E003B7368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		15597E792FF4946E003B7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lioneljones.-882MobileAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1882MobileApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1882MobileApp";
+			};
+			name = Debug;
+		};
+		15597E7A2FF4946E003B7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lioneljones.-882MobileAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1882MobileApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1882MobileApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		15A7DD112FF09E1300091E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -159,6 +281,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -181,6 +304,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -220,6 +344,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -235,6 +360,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -246,6 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -260,10 +387,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lioneljones.-882MobileApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +404,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.4;
+				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Debug;
 		};
@@ -288,6 +415,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -302,10 +430,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lioneljones.-882MobileApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,13 +447,22 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.4;
+				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15597E7B2FF4946E003B7368 /* Build configuration list for PBXNativeTarget "1882MobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15597E792FF4946E003B7368 /* Debug */,
+				15597E7A2FF4946E003B7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		15A7DD032FF09E1100091E88 /* Build configuration list for PBXProject "1882MobileApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

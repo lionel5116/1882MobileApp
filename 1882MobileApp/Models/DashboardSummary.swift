@@ -1,6 +1,6 @@
 import Foundation
 
-struct DashboardSummary: Codable {
+nonisolated struct DashboardSummary: Codable {
     let totals: Totals
     let byCampus: [CampusBreakdown]
     let byServiceType: [ServiceTypeBreakdown]
@@ -9,7 +9,7 @@ struct DashboardSummary: Codable {
     var campusesServed: Int { byCampus.count }
     var maxCampusCost: Double { byCampus.map(\.totalCostDouble).max() ?? 1 }
 
-    struct Totals: Codable {
+    nonisolated struct Totals: Codable {
         let totalEntries: String   // quoted integer from Postgres
         let totalHours: String     // quoted numeric
         let totalCost: String      // quoted numeric
@@ -25,7 +25,7 @@ struct DashboardSummary: Codable {
         }
     }
 
-    struct CampusBreakdown: Codable {
+    nonisolated struct CampusBreakdown: Codable {
         let campusName: String
         let entryCount: String
         let totalHours: String
@@ -43,7 +43,7 @@ struct DashboardSummary: Codable {
         }
     }
 
-    struct ServiceTypeBreakdown: Codable {
+    nonisolated struct ServiceTypeBreakdown: Codable {
         let serviceType: String
         let entryCount: String
         let totalHours: String

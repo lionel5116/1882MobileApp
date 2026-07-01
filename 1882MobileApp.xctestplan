@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "5674290E-7FFC-418C-BD71-8BA71BAEABC1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:1882MobileApp.xcodeproj",
+      "identifier" : "15A7DD072FF09E1100091E88",
+      "name" : "1882MobileApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:1882MobileApp.xcodeproj",
+        "identifier" : "15597E722FF4946E003B7368",
+        "name" : "1882MobileAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
